@@ -1,0 +1,58 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Document</title>
+</head>
+<body>
+    
+
+<form class="max-w-sm mx-auto pt-12" method="POST" action="register.php">
+  <div class="mb-5">
+    <label for="cin"  class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">CIN </label>
+    <input type="cin" id="number" class="shadow-xs bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 dark:shadow-xs-light" name="cin" required />
+  </div>
+  <div class="mb-5">
+    <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Nom </label>
+    <input type="text" id="email" class="shadow-xs bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 dark:shadow-xs-light" name="nom" required />
+  </div>
+  <div class="mb-5">
+    <label  class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Prenom</label>
+    <input type="text"  class="shadow-xs bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 dark:shadow-xs-light" name="prenom" required />
+  </div>
+  <div class="mb-5">
+    <label for="repeat-password" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Date de naissance</label>
+    <input type="date" id="repeat-password" class="shadow-xs bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 dark:shadow-xs-light" name="date" required />
+  </div>
+  <div class="mb-5">
+    <label  class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">E-mail</label>
+    <input type="email" class="shadow-xs bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 dark:shadow-xs-light" name="email" required />
+  </div>
+  <div class="mb-5">
+    <label for="repeat-password" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Telephone</label>
+    <input type="number"  class="shadow-xs bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 dark:shadow-xs-light" name="telephone" required />
+  </div>
+  <div class="flex items-start mb-5">
+    
+  </div>
+  <div class=" flex  justify-center" >
+
+    <button type="submit" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 ">Ajouter Un Proprietaire</button>
+  </div>
+</form>
+
+
+<?php
+
+
+
+?>
+
+   <footer class="relative bottom-0 mt-8 text-center text-gray-500">
+        Ajouter un propriétaire  
+        <a href="./ListeProprietaire.php" class="text-blue-500 underline cursor-pointer">ici</a>
+    </footer>
+
+</body>
+</html>

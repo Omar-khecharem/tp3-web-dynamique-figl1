@@ -36,7 +36,7 @@
                
                     if ($marque == $row['Nom_marque']) {
      
-                        echo "<option   selected >" . $row['Nom_marque']  . "</option>";
+                        echo "<option  selected >" . $row['Nom_marque']  . "</option>";
                     } else {
                         echo "<option  >" . $row['Nom_marque'] . "</option>";
                     }
