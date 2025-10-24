@@ -109,6 +109,10 @@
 
 
     </table>
+    <footer class="retalive bottom-0 mt-5 text-center text-gray-500">
+        Voir les proprietaire  
+        <a href="http://localhost/tp3/voiture.php" class="text-red-500 underline cursor-pointer">ici</a>
+    </footer>
 </body>
 
 </html>

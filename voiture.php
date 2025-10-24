@@ -8,7 +8,7 @@
 <title>Voiture</title>
 </head>
 
-<body class="m-12">
+<body class="m-12 selection:bg-orange-50/70 ">
 
     <?php
 
@@ -24,7 +24,7 @@
 
     ?>
     <h1 class="text-center p-4 text-3xl font-bold  bg-gradient-to-b from-cyan-400 to-green-100 bg-clip-text text-transparent">
-        Liste Des voitures</h1>
+        Liste Des Proprietaire </h1>
     <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="POST" class="mt-10 flex flex-col gap-2   ">
         <label for="">Nom de marque:</label>
 
@@ -33,16 +33,16 @@
 
             while ($row = mysqli_fetch_assoc($resultat)) {
 
-                if (isset($_POST['marque'])) {
+               
                     if ($marque == $row['Nom_marque']) {
      
-                        echo "<option selected >" . $row['Nom_marque']  . "</option>";
+                        echo "<option   selected >" . $row['Nom_marque']  . "</option>";
                     } else {
                         echo "<option  >" . $row['Nom_marque'] . "</option>";
                     }
 
 
-                }
+                
 
 
             }
@@ -55,7 +55,7 @@
 
 
 
-        <button type="submit" class="bg-green-400 p-2 rounded-xl  font-bold text-white">Valider</button>
+        <button type="submit" class="bg-green-400 p-2 rounded-xl  font-bold text-white shadow-xl shadow-green-100">Valider</button>
     </form>
 
 
@@ -127,6 +127,10 @@
 
 
     </table>
+      <footer class="retalive bottom-0 mt-5 text-center text-gray-500">
+        Voir les voitures disonible 
+        <a href="http://localhost/tp3/index.php" class="text-red-500 underline cursor-pointer">ici</a>
+    </footer>
 </body>
 
 </html>
