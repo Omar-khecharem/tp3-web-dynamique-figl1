@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
-<title>Voiture</title>
+<title>Les voitures</title>
 </head>
 
 <body class="m-12 selection:bg-orange-50/70 ">

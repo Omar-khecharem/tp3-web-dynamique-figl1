@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
-<title>Voiture</title>
+<title> ListeVoitures</title>
 </head>
 
 <body class="m-12">
